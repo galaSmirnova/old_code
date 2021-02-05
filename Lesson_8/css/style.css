@@ -1,0 +1,78 @@
+/* Task 5 */
+.underline {
+    text-decoration: underline;
+}
+.throught {
+    text-decoration: line-through;
+}
+.overline {
+    text-decoration: overline;
+}
+/* Task 6 */
+.red {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    margin-bottom: 50px;
+}
+/* Task 7 */
+.blue_dotted {
+    width: 500px;
+    height: 200px;
+    border: 1px dotted blue;
+    margin-bottom: 50px;
+} 
+/* Task 8 */
+.green-dashed {
+    width: 100px;
+    height: 100px;
+    border: 1px dashed green;
+    margin-bottom: 50px;
+}
+/* Task 9 */
+.color_radius {
+    width: 500px;
+    height: 200px;
+    border-top: 1px solid blue;
+    border-right: 1px solid green;
+    border-bottom: 1px solid red;
+    border-left: 1px solid black;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+/* Task 10 */
+.different_radius {
+    width: 300px;
+    height: 300px;
+     border: 1px dashed green;
+    border-radius: 10px 30px ;
+    margin-bottom: 50px;
+}
+/* Task 11 */
+.more_radius {
+    width: 300px;
+    height: 300px;
+    border: 1px dotted green;
+    border-radius: 10px 30px 50px 50px;
+    margin-bottom: 50px;
+}
+/* Task 12 */
+.circle {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+/* Task 12 */
+.blue {
+    text-decoration: none;
+    color: blue;
+}
+.red_link {
+    color: red;
+} 
+.black {
+    text-decoration: none;
+    color: black;
+}

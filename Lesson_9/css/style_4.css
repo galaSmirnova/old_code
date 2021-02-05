@@ -1,0 +1,20 @@
+
+
+body {
+    background: url("../img/space.jpg") black no-repeat left top;
+    color: white;
+    font-size: 20px;
+}
+.text {    
+    text-align: justify; 
+      
+}
+.wrapper {
+    width: 500px;
+}
+h1 {
+    text-align: center;
+    font-size: 1.6em;
+    
+}
+
