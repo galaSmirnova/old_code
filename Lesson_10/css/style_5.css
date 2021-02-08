@@ -1,0 +1,21 @@
+.square {
+    list-style-type: ;list-style-type: square;
+}
+.circle {
+    list-style-type: circle;
+}
+.none {
+    list-style-type: none;
+}
+.img {
+    list-style-image: url("../img/li.gif");
+}
+.number {
+    list-style-type: decimal;
+}
+.lowerGeek {
+    list-style-type: lower-greek;
+}
+.upperAlpha {
+    list-style-type: upper-alpha;
+}

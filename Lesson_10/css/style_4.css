@@ -1,0 +1,14 @@
+
+p {   
+    width: 600px;
+    text-align: justify;    
+}
+
+.first {
+    float: left;
+    margin-right: 20px;    
+}
+.second {
+    float: right;
+    margin-left: 20px;
+}

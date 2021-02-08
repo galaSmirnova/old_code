@@ -1,0 +1,26 @@
+ul {
+    display: inline-block;
+    list-style-type: none;
+    
+}
+li {    
+    width: 200px;
+    border: 1px solid #0081E7;
+    margin-bottom: 5px;
+    background-color: #0081E7;     
+}
+li a {
+   display: block;
+   text-decoration: none;
+   padding-left: 5px;
+   line-height: 30px;
+   color: white;  
+
+}
+
+a:hover, .activ  {
+    color: blue;
+    background: url(../img/blue.png) no-repeat 160px center;
+    background-color: #ffffff;  
+    font-weight: 700;
+}
