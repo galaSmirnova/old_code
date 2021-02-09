@@ -1,0 +1,39 @@
+
+.menu {
+    background-color: #FC9D00;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding-right: 20px;
+    
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+}
+ul::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+li {
+    float: left;
+    margin-left: 10px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    /* border: 1px solid #000; */
+    /* background-color: aqua; */
+    /* line-height: 30px; */
+    padding: 10px;
+    color: #fff;
+    font-size: 13px;
+}
+
+a:hover {
+    background-color: #E93301;
+    
+}

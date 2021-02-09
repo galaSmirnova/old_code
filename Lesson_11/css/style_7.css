@@ -1,0 +1,53 @@
+.menu {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    margin-left: 10px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    /* border: 1px solid #000; */
+    /* background-color: aqua; */   
+    padding: 30px 5px 0px;
+    color: #CBCBCB;
+    
+}
+.air_tickets {
+    background: url(../img/1.png) no-repeat top center;
+}
+.air_tickets:hover {
+    color: #0081E7;
+    background: url(../img/1-h.png) no-repeat top center;
+}
+.charter {
+    background: url(../img/2.png) no-repeat top center;
+}
+.charter:hover {
+    color: #0081E7;
+    background: url(../img/2-h.png) no-repeat top center;
+}
+.train_tickets {
+    background: url(../img/3.png) no-repeat top center;
+}
+.train_tickets:hover {
+    color: #0081E7;
+    background: url(../img/3-h.png) no-repeat top center;
+}
+.hotels {
+    background: url(../img/4.png) no-repeat top center;
+}
+.hotels:hover {
+    color: #0081E7;
+    background: url(../img/4-h.png) no-repeat top center;
+}
+.tourism {
+    background: url(../img/5.png) no-repeat top center;
+}
+.tourism:hover {
+    color: #0081E7;
+    background: url(../img/5-h.png) no-repeat top center;
+}
