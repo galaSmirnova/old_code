@@ -1,0 +1,36 @@
+body, h1 {
+    margin: 0px;
+}
+.wrapper {
+    width: 700px;
+    margin: 10px auto;
+    border: 2px dashed green;
+    border-radius: 15px;
+    color: green;
+    padding: 0 15px;
+    text-align: justify;
+    
+}
+h1, h2 {
+    text-align: center;    
+}
+p {
+    font: 15px/20px Arial;
+    font-size: 15px;
+    text-align: right;
+    
+}
+h2 a {
+    color: green;
+}
+h2 a:hover {
+    color: black;
+    text-decoration: none;
+}
+p a{
+    color: green;
+    font-weight: 700;
+}
+p a:hover {
+    text-decoration: none;
+}
