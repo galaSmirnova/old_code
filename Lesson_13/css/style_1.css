@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 700px;
+    margin: 10px auto;
+    list-style-type: none;
+    background-color: #2696E8;
+    border: 1px solid blue;
+}
+.menu li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+.menu li a:hover {
+    background-color: #fff;
+    color: #2696E8;
+}
