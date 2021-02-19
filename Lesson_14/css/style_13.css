@@ -1,0 +1,25 @@
+.wrapper {
+    width: 830px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.line div.block {
+    float: left;
+    width: 200px;
+    height: 100px;
+    margin-right: 10px;
+    outline: 1px solid black;
+}
+.line div.block.last {
+    margin-right: 0px;
+}
+.clearfix {
+    clear: both;
+}
+.line {
+    margin-bottom: 40px;
+}
+.line:last-child {
+    margin-bottom: 0px;
+}
+

@@ -6,17 +6,15 @@ div {
 .red {
     top: 30px;
     left: 30px;
-    background-color: #ff8888;
-    z-index: 2;
+    border: 1px solid red;
 }
 .blue {
     top: 60px;
     left: 60px;
-    background-color: #7E89EB;
-    z-index: 1;
+    border: 1px solid blue;
 }
 .green {
     top: 90px;
     left: 90px;
-    background-color: #4DEE99;
+    border: 1px solid green;
 }
