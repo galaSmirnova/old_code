@@ -1,20 +1,23 @@
-div {
-    position: absolute;
-    width: 50px;
-    height: 50px;
+.wrapper {
+    width: 1000px;
+    margin: 0px auto;
+    outline: 1px solid black;    
 }
-.red {
-    top: 30px;
-    left: 30px;
-    background-color: #ff8888;
+header, main, footer{
+    outline: 1px solid black;
+    height: 200px;
 }
-.blue {
-    top: 60px;
-    left: 60px;
-    background-color: #7E89EB;
+aside {
+    float: left;
+    width: 200px;
+    height: 400px;
+    outline: 1px solid black;
 }
-.green {
-    top: 90px;
-    left: 90px;
-    background-color: #4DEE99;
+main {
+    float: left;
+    height: 400px;
+    width: 600px;
+}
+.clearfix {
+    clear: both;
 }

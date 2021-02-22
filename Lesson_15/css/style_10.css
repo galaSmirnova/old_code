@@ -1,31 +1,35 @@
-
-.red, .yellow, .green {
-    position: absolute;    
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;  
-    border: 1px solid black;
-}
-.red {
-    top: 50px;
-    left: 50px;
-    background-color: red;
-}
-.yellow {
-    top: 160px;
-    left: 50px;
-    background-color: yellow;
-}
-.green {
-    top: 270px;
-    left: 50px;
-    background-color: green;
-}
-.lights {
-    position: relative;
-    width: 200px;
-    height: 430px;
+.wrapper {
+    width: 1080px;
     margin: 0px auto;
-    border: 1px solid black;
+    outline: 1px solid black;
+    padding: 40px;
 }
-
+header {
+    margin-bottom: 40px;
+    
+}
+header > div, footer > div {
+    outline: 1px solid black;    
+    height: 200px;
+}
+main > div {
+    outline: 1px solid black;    
+    height: 500px;
+}
+.left {
+    float: left;
+    width: 200px;
+}
+.right {
+    float: right;
+    width: 200px;
+    
+}
+.center {
+    width: 600px;
+    margin: 0px 240px;
+  
+}
+footer {
+    margin-top: 40px;
+}
