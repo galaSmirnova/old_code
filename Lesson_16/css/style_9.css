@@ -1,0 +1,35 @@
+/* резиновый макет сайта */
+
+.wrapper {
+    width: 70%;
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+    outline: 1px solid black;    
+}
+header, main, footer{
+    outline: 1px solid black;
+    height: 200px;
+}
+aside {    
+    max-width: 200px;
+    min-width: 200px;   
+    outline: 1px solid black; 
+    height: 500px;      
+}
+
+.left {
+    float: left;    
+}
+.right {
+    float: right;
+}
+main {
+    max-width: 800px;
+    min-width: 200px;
+    height: 500px;
+    margin: 0 200px;
+}
+.clearfix {
+    clear: both;
+}

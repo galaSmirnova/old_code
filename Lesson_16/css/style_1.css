@@ -1,0 +1,92 @@
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: 1px solid black;        
+}
+
+/* header */
+
+header {    
+    position: relative;
+    min-height: 200px;
+    outline: 1px solid black;
+}
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+}
+.sitename {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.menu ul {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 40px;
+    left: 200px;
+    border: 1px solid black;
+    list-style-type: none;   
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a:visited, .menu li a:link {
+    line-height: 30px; 
+    padding: 0px 10px;  
+    color: blue;   
+    text-decoration: none;
+}
+.menu li a:hover, .menu li a.active {
+    color: red;
+    text-decoration: underline;
+}
+
+
+/* center */
+.left {
+    float: left;
+    width: 200px;
+    height: 700px;
+} 
+.right {
+    float: right;
+    width: 200px;
+    height: 700px;
+}
+
+
+main {
+    min-height: 700px;
+    border: 1px solid black;
+    padding: 0px 20px;
+    margin: 0px 200px;
+    
+}
+main h1 {
+    margin: 0;
+    padding: 0;
+}
+main p {
+    text-align: justify;
+    margin: 10px 0px;
+}
+
+/* footer */
+footer {
+    font-weight: bold;
+    padding-top: 180px;
+    outline: 1px solid black;
+    text-align: center;
+}
+.clearfix {
+    clear: both;
+}

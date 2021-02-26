@@ -1,0 +1,27 @@
+.wrapper {
+    width: 1000px;
+    margin: 0px auto;
+    outline: 1px solid black;    
+}
+header, main, footer{
+    outline: 1px solid black;
+    height: 200px;
+}
+aside {    
+    width: 200px;
+    height: 400px;
+    outline: 1px solid black;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+main {
+    height: 400px;
+    margin: 0 200px;
+}
+.clearfix {
+    clear: both;
+}
