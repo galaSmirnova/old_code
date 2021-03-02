@@ -1,33 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 .wrapper {
-    width: 1000px;
-    margin: 0px auto;
-    outline: 1px solid black;    
+    width: 840px;
+    margin: 0 auto;
 }
-header, main, footer{
-    outline: 1px solid black;
-    height: 200px;
+.green-block {
+    background-color: #008040;
+    color: #fff;
+    padding: 5px 0px;
+    margin-bottom: 30px;
 }
-header {
-    margin-bottom: 20px;
+.header {
+    text-align: center;
+    
 }
-aside {    
-    width: 200px;
-    height: 400px;
-    outline: 1px solid black;
+.header h1 {
+    font-size: 35px;
+    margin-bottom: 7px;
 }
-.left {
+.header p {
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+.about {
+    font-size: 16px;
+    text-align: justify;
+}
+.about h2, .contacts h2, .clients h2 {    
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 27px;
+}
+.services {
+    margin-bottom: 30px;
+}
+.services ol {
+    list-style-colo: ;
+}
+.services li {
+    margin-bottom: 10px;
+    color: red;
+    font-weight: bold;
+    list-style-position: inside;
+}
+.services li span {
+    color: black;
+    font-weight: 400;
+}
+.red-block {
+    background-color: #C60304;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.contacts p {
+    text-align: center;    
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.about-company {
+    margin-bottom: 30px;
+}
+.about-company p {
+    margin-bottom: 10px;
+}
+.orange-block {
+    background-color: #FF8040;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.clients h2 {
+    color: #fff; 
+}
+.clients img {
     float: left;
+    width: 24.5%;
+    margin-right: 0.66666%;
+    outline: 1px solid black;
 }
-.right {
-    float: right;
+.clients img.last {
+    margin-right: 0px;
 }
-main {
-    height: 400px;
-    margin: 0 220px;
+.clients p {
+    margin-bottom: 5px;
 }
 .clearfix {
     clear: both;
 }
 footer {
-    margin-top: 20px;
+    background-color: #912F00;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+}
+footer .copyright {
+    padding-top: 200px;
+    padding-bottom: 5px;
 }
