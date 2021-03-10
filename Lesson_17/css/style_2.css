@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;    
+    background-color: #EBEBEB;
+    color: black;
+}
+.wrapper {
+    width: 960px;
+    margin: 40px auto;
+    background-color: #fff;
+}
+.sitename {
+    height: 120px;
+    
+}
+.logo {
+    float: left;    
+    padding-left: 30px;       
+}   
+.logo a {    
+    font: normal 54px/120px Georgia, Times, serif;    
+    color: black;
+    text-decoration: none;
+    letter-spacing: -3px;
+}
+.designed {
+    float: right;
+    color: #999999;
+    font: 20px/120px Georgia, Times, serif;
+    letter-spacing: -1px;
+    padding-right: 30px;
+}
+
+menu ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    height: 84px;   
+}
+menu li {    
+    background-color: #EA9B23;
+    text-transform: lowercase;      
+    flex: 1;
+}
+menu li a:visited, menu li a:link {
+    display: block;
+    text-decoration: none;
+    color: #F7DAAF;  
+    padding: 30px 0;
+    font-weight: bold;  
+    font-size: 1.2em;
+}
+menu li a:hover{
+    color: #F9E6C8;
+}
+
+.jumbotron {
+    margin-top: 60px;
+    margin-bottom: 65px;
+    width: 100%;
+    height: 400px;
+    background: url(../img/img.jpg) no-repeat;
+}
+.clearfix {
+    clear: both;
+}
+
+/* main content*/
+
+.left {
+    float: right;
+    width: 570px;
+    padding-right: 30px;    
+    /* background: chartreuse; */
+}
+.left article {
+    padding-bottom: 70px;
+}
+.left h2 {
+    font: normal 3em Georgia, Times, serif;
+    letter-spacing: -2px;
+}
+.left h2 a:link, .left h2 a:visited {
+    text-decoration: none; 
+    color: black;
+}
+.left .posted {
+    color: #888888;
+    margin-bottom: 10px;
+}
+.left p {
+    line-height: 2em;
+    padding: 10.5px 0px;
+    text-align: justify;
+}
+.left a:link, .left a:visited {
+    color: #F0A003;   
+}
+.left a:hover {
+    text-decoration: none;
+}
+.left .button {   
+    color: #F0A003;
+    text-align: right;
+    padding-right: 2em;
+    
+}
+.left .button a:visited,
+.left .button a:link {
+    text-decoration: none;
+    border: 1px solid #E8E6DE;
+    line-height: 2em;
+    padding: 5px 10px;
+}
+.left .button a:hover {
+    background: #FCF3E6;
+}
+.right {
+    float: left;
+    width: 260px;
+    padding-left: 30px;
+    /* background-color: blueviolet; */
+}
+.right section {
+    margin-bottom: 40px;
+}
+.right h3 {
+    font: normal 1.75em Georgia, Times, serif;
+    letter-spacing: -1px;
+}
+.right ul {
+    list-style: none;
+    padding: 1em 0;
+}
+.right li {
+    /* padding-left: 15px; */
+    line-height: 3em;
+    border-bottom: 1px solid #E8E6DE;
+    list-style-image: url(../img/li.gif);
+    list-style-position: inside;
+}
+.right li a, footer p a {
+    color: #F0A003;
+    text-decoration: underline;
+}
+.right p {    
+    line-height: 2em;
+    padding-bottom: 30px;
+    padding-top: 15px;
+    
+}
+/* footer */
+
+footer {
+    
+    background: #fff;
+}
+footer p {
+    border-top: 1px solid #E8E6DE;
+    text-align: center;
+    line-height: 100px;
+    margin-top: 20px;
+}
+footer p a:visited, footer p a:link {
+    color: #F0A003;    
+}
+footer p a:hover {
+    text-decoration: none;
+}
