@@ -1,0 +1,22 @@
+.wrapper {
+    width: 830px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.line {
+    font-size: 0;
+    margin-bottom: 40px;
+}
+.line div {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin-right: 10px;
+    outline: 1px solid black;
+}
+.line div.last {
+    margin-right: 0px;
+}
+.line:last-child {
+    margin-bottom: 0;
+}
