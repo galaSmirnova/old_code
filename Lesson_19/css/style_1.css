@@ -6,3 +6,19 @@ p {
 .first {
     letter-spacing: 4px;
 }
+.second {
+    letter-spacing: -1px;
+}
+.third {
+    word-spacing: 10px;
+}
+.fourth {
+    word-spacing: -7px;
+}
+.fifth {
+    font-variant: small-caps;
+}
+.sixth {
+    text-transform: uppercase;'
+
+}

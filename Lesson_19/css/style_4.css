@@ -1,20 +1,33 @@
 div {
-    position: absolute;
-    width: 50px;
-    height: 50px;
+   
+    border: 1px solid red;
+    margin-bottom: 20px;
+    text-align: justify;
 }
-.red {
-    top: 30px;
-    left: 30px;
-    background-color: #ff8888;
+.hidden {
+     width: 110px;
+     height: 110px;
+    overflow: hidden;
 }
-.blue {
-    top: 60px;
-    left: 60px;
-    background-color: #7E89EB;
+.scroll {
+     width: 110px;
+     height: 110px;
+    overflow: auto;
 }
-.green {
-    top: 90px;
-    left: 90px;
-    background-color: #4DEE99;
+.big {
+    width: 310px;
+    height: 225px;
+    overflow: scroll;
+    text-align: justify;
+}
+.flat {
+    width: 310px;
+    line-height: 2em;
+    white-space: nowrap;
+}
+.hr-scroll {
+    width: 310px;
+    line-height: 2em;
+    white-space: pre;
+    overflow-x: scroll;
 }
