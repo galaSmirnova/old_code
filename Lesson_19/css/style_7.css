@@ -1,22 +1,26 @@
 div {
-    position: absolute;
-    width: 50px;
-    height: 50px;
+    width: 200px;
+    height: 200px;
+    margin: 10px auto 100px;
+    border: 1px solid black;
 }
-.red {
-    top: 30px;
-    left: 30px;
-    background-color: #ff8888;
-    z-index: 2;
+.d1 {
+    box-shadow: 20px 30px #959595;
 }
-.blue {
-    top: 60px;
-    left: 60px;
-    background-color: #7E89EB;
-    z-index: 1;
+.d2 {
+    box-shadow: 20px 30px 10px #959595;
 }
-.green {
-    top: 90px;
-    left: 90px;
-    background-color: #4DEE99;
+.d3 {
+    box-shadow: 20px 30px 10px #959595,
+                -20px -30px 10px #959595;
+}
+.d4 {
+    box-shadow: inset 5px 5px 10px #959595;
+}
+.d5 {
+    box-shadow: inset 5px 5px 10px blue,
+                inset -5px -5px 10px red; 
+}
+.d6 {
+    box-shadow: 0 0 0 2px black;
 }
