@@ -1,28 +1,9 @@
 .wrapper {
-    width: 640px;
-    margin: 0 auto;
-    margin-bottom: 60px;
-    padding: 20px;
-    border: 1px solid #B43273;
-    border-radius: 20px 20px 0 0;
-    box-sizing: border-box;
-    color: #76214B;
+    width: 70%;
+    margin: 45px auto;
 }
-.wrapper h1 {
-    color: #B43273;
-    margin-top: 0;
-    
-}
-div.box {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    color: #fff;
-    text-align: center;
-    font-size: 21px;
-    line-height: 50px;
-    height: 50px;
-    background-color: #B43273;
-    border: 1px solid #76214B;    
+p {
+    text-align: justify;
+    -moz-hyphens: auto;
+    hyphens: auto;
 }

@@ -1,52 +1,20 @@
-
-.smile {
-    position: relative;
-    width: 400px;
-    height: 400px;
-    margin: 0px auto;
-    border-radius: 50%;
-    background-color: #C4CD14;
-}
-.left_eye, .right_eye, .nose, .mouth, .green {
-    position: absolute;    
-    background-color: #fff;
-}
-.left_eye, .right_eye {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-   
-}
-.left_eye {    
-    top: 70px;
-    left: 80px; 
-    z-index: 1;   
-}
-.right_eye {
-    top: 70px;
-    right: 80px;
-    z-index: 2;
-}
-.nose {
-    width: 70px;
-    height: 70px;
-    bottom: 130px;
-    left: 165px;  
-    border-radius: 50%; 
-    z-index: 3;
-}
-.mouth {  
+div {
     width: 200px;
-    height: 200px;
-    bottom: 45px;
-    left: 100px;  
-    border-radius: 100px;  
+    margin-bottom: 20px;
+    border: 1px solid black;
 }
-.green {    
-    width: 300px;
-    height: 300px;
-    bottom: 70px;
-    left: 50px;  
-    border-radius: 150px; 
-    background-color: #C4CD14; 
+.p1 {
+    white-space: nowrap;
+}
+.p2 {
+    white-space: pre;
+}
+.p3 {
+    white-space: pre-wrap;
+}
+.p4 {
+    white-space: pre-line;
+}
+.p5 {
+    white-space: normal;
 }

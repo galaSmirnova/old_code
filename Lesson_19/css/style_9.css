@@ -1,7 +1,23 @@
-body {
-    background: url(../img/fon1.jpg) repeat-y left,
-                url(../img/fon2.jpg) repeat-y right;
+p {
+    margin-bottom: 30px;
 }
-p {   
-    text-align: center;
+.p1 {
+    text-decoration-style: wavy;
+    text-decoration-line: underline;
+    text-decoration-color: red;    
+}
+.p2 {
+    text-decoration-style: dotted;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+}
+.p3 {
+    text-decoration-style: dashed;
+    text-decoration-line: underline;
+    text-decoration-color: red;
+}
+.p4 {
+    text-decoration-style: double;
+    text-decoration-line: underline;
+    text-decoration-color: red;
 }

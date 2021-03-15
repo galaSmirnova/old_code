@@ -1,13 +1,7 @@
-p {
-    width: 70%;
-    border: 1px solid black;
-    margin: 30px;
-    padding: 10px;
-    overflow: hidden;
-    text-overflow: ellipsis; 
-    white-space: nowrap; 
+body {
+    background: url(../img/fon1.jpg) repeat-y left,
+                url(../img/fon2.jpg) repeat-y right;
 }
-p:hover {
-    white-space: normal;
-    overflow: hidden;
+p {   
+    text-align: center;
 }

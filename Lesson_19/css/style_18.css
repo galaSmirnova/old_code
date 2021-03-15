@@ -1,0 +1,33 @@
+div {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+.d1 {
+    background-image: radial-gradient(#55ddff,#0081b5);
+}
+.d2 {
+    background-image: radial-gradient(at top center, #55ddff,#0081b5);
+}
+.d3, .d4, .d5, .d6, .d7, .d8 {
+    width: 400px;
+}
+.d3 {
+    background-image: radial-gradient(circle, #55ddff,#0081b5);
+}
+.d4 {
+    background-image: radial-gradient(ellipse, #55ddff,#0081b5);
+}
+.d5 {
+    background-image: radial-gradient(circle closest-side, #55ddff, #0081b5);
+}
+.d6 {
+    background-image: radial-gradient(circle closest-corner at 30px 40px, #55ddff,#0081b5);
+}
+.d7 {
+    background-image: radial-gradient(circle closest-side,#333 10px, white 30px, white 40px,green 50px);
+}
+.d8 {
+    background-image: radial-gradient(circle closest-side, green 30px, white 30px, white 50px, green 50px);
+}

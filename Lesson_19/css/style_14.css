@@ -1,22 +1,12 @@
-.wrapper {
-    width: 830px;
-    border: 1px solid black;
-    margin: 0 auto;
-}
-.line {
-    font-size: 0;
-    margin-bottom: 40px;
-}
-.line div {
-    display: inline-block;
+p {
     width: 200px;
-    height: 100px;
-    margin-right: 10px;
-    outline: 1px solid black;
+    border: 1px solid black;
+    
 }
-.line div.last {
-    margin-right: 0px;
+.p1 {
+    word-break: break-all;
+    overflow-wrap: break-word;
 }
-.line:last-child {
-    margin-bottom: 0;
+.p2 {
+    overflow-wrap: break-word;
 }
