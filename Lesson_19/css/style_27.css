@@ -1,13 +1,33 @@
-p {
-    width: 70%;
-    border: 1px solid black;
-    margin: 30px;
-    padding: 10px;
-    overflow: hidden;
-    text-overflow: ellipsis; 
-    white-space: nowrap; 
+.img1 {
+    filter: grayscale(1);
 }
-p:hover {
-    white-space: normal;
-    overflow: hidden;
+.img2 {
+    filter: sepia(2);
+}
+.img3 {
+    filter: saturate(0.5);
+}
+.img4 {
+    filter: hue-rotate(90deg);
+}
+.img5 {
+    filter: invert(100%);
+}
+.img6 {
+    filter: opacity(0.5);
+}
+.img7 {
+    filter: brightness(0.7);
+}
+.img8 {
+    filter: contrast(0.5);
+}
+.img9 {
+    filter: blur(1px);
+}
+.img10 {
+    filter: drop-shadow(15px 15px 20px black);
+}
+div:last-of-type {
+    margin-bottom: 50px;
 }

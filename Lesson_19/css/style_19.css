@@ -1,13 +1,27 @@
-p {
-    width: 70%;
+div {
+    width: 400px;
+    height: 100px;
     border: 1px solid black;
-    margin: 30px;
-    padding: 10px;
-    overflow: hidden;
-    text-overflow: ellipsis; 
-    white-space: nowrap; 
+    margin-bottom: 30px;
 }
-p:hover {
-    white-space: normal;
-    overflow: hidden;
+.d1 {
+    background-image: linear-gradient(to right, white 5px, black 5px);
+    background-size: 10px 10px;
+}
+.d2 {
+    background-image: repeating-linear-gradient(to top, white 0px, white 5px, black 5px, black 10px);
+}
+.d3 {
+    background-image: repeating-linear-gradient(to top, white 0px, white 5px, black 5px, black 6px);
+}
+.d4 {
+    height: 30px;
+    background-image: repeating-linear-gradient(45deg, white 0px, white 5px, red 5px, red 8px);
+}
+.d5 {
+    height: 400px;
+    background-image: repeating-radial-gradient(circle closest-corner, black 0px, black 5px, white 5px, white 10px);
+}
+.d6 {
+    background-image: repeating-linear-gradient(-45deg, white 0px, white 5px, black 5px, black 6px);
 }

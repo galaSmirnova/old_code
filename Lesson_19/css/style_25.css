@@ -1,13 +1,57 @@
-p {
-    width: 70%;
-    border: 1px solid black;
-    margin: 30px;
-    padding: 10px;
-    overflow: hidden;
-    text-overflow: ellipsis; 
-    white-space: nowrap; 
+div {
+    width: 400px;
+    height: 400px;
+    margin: 100px auto;
+
 }
-p:hover {
-    white-space: normal;
-    overflow: hidden;
+.d1 {    
+    border-image-source: url("../img/border-image.png");
+    border-image-slice: 26;
+    border-image-repeat: repeat;
+    border-image-width: 26px;
+    border-style: solid;
+    background: green;
+}
+.d1:hover {
+    border-image-repeat: round;
+    cursor: pointer;
+}
+.d2 {
+    border-image-source: url("../img/border-image.png");
+    border-image-slice: 26;
+    border-image-width: 26px;
+    border-image-repeat: stretch;
+    border-style: solid;
+    background: green;   
+}
+.d3 {
+    border-image: url("../img/border-image.png") 26 repeat stretch;
+    border-image-width: 26px;
+    border-style: solid;
+    background: green;
+}
+.d4 {
+    background: green;
+    border-image: linear-gradient(to bottom, red, blue) 30;
+    border-image-width: 30px;
+    border-style: solid;
+} 
+.d5:hover {
+    
+    border-image: url("../img/border-image.png") 26/1/3 repeat;
+   
+}
+.d5 {
+    border-image: url("../img/border-image.png") 26 repeat;
+    background: green;
+    border-width: 26px;
+    border-style: solid;
+}
+.d6:hover {
+    border-image: url("../img/border-image-fill.png") fill 25% 30% 10% 20% stretch;
+}
+.d6 {
+    border-image: url("../img/border-image-fill.png") 25% 30% 10% 20% stretch;
+    border-width: 50px;
+    border-style: solid;
 }

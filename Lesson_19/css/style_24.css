@@ -1,13 +1,17 @@
-p {
-    width: 70%;
-    border: 1px solid black;
-    margin: 30px;
-    padding: 10px;
-    overflow: hidden;
-    text-overflow: ellipsis; 
-    white-space: nowrap; 
+@font-face {
+    font-family: Lombardina;
+    src: url(../fonts/3684.ttf);
 }
-p:hover {
-    white-space: normal;
-    overflow: hidden;
+
+body {    
+    font-family: Lombardina;
+    font-size: 36px;
+}
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+}
+p {
+    text-align: justify;
 }

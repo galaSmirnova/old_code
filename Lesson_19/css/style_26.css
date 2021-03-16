@@ -1,13 +1,39 @@
-p {
-    width: 70%;
-    border: 1px solid black;
-    margin: 30px;
-    padding: 10px;
-    overflow: hidden;
-    text-overflow: ellipsis; 
-    white-space: nowrap; 
+div {
+    width: 300px;
+    height: 300px;
+    border: 10px dotted black;
+    margin-bottom: 50px;
+    padding: 30px;
+    text-align: justify;
+    font-size: 19px;
+    font-weight: bold;
 }
-p:hover {
-    white-space: normal;
-    overflow: hidden;
+.d1 {
+    background-image:  url("../img/fon1.jpg");
+    background-repeat: no-repeat;
+}
+.d2 {
+    background-image:  url("../img/fon1.jpg");
+    background-repeat: no-repeat;
+    background-clip: content-box;
+}
+.d3 {
+    background-image:  url("../img/fon1.jpg");
+    background-repeat: no-repeat;
+    background-clip: border-box;
+}
+.d4 {
+    background: blue;
+    background-clip: padding-box;
+    color: #fff;
+}
+.d5 {
+    background: blue;
+    background-clip: content-box;
+    color: #fff;
+}
+.d6 {
+    background: blue;
+    background-clip: border-box;
+    color: #fff;
 }
