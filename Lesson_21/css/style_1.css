@@ -1,0 +1,17 @@
+ol {
+    list-style-position: inside;
+    width: 210px;
+}
+li {
+    border: 1px solid blue;
+    padding: 3px;
+    margin-bottom: 5px;
+}
+li:hover {
+    background: green;
+    color: white;
+}
+li:hover + li{
+    background: red;
+    color: white;
+}
