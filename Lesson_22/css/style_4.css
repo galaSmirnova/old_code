@@ -1,0 +1,7 @@
+#el1::placeholder {
+    color: green;
+}
+#el2::placeholder {
+    background: green;
+    color: #fff;
+}

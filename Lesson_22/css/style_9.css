@@ -1,0 +1,12 @@
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+    text-align: justify
+}
+div {
+    counter-reset: test 7;
+}
+div p::before {
+    counter-increment: test;
+    content: "Абзац №" counter(test) ". ";
+}

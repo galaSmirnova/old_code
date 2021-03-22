@@ -1,0 +1,15 @@
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+    text-align: justify
+}
+
+p::before {
+    content: "Начало: ";
+    color: red;
+}
+
+p::after {
+    content: " :конец!";
+    color: green;
+}

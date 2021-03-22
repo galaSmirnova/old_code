@@ -1,0 +1,18 @@
+input {
+    outline: none;
+    width: 200px;
+}
+
+#el1:focus {
+    color: green;  
+    font-weight: bold;  
+}
+#el2:focus {
+    color: #FF8000;
+    box-shadow: 0 0 3px 0 #FF8000;
+    border: 1px solid #FF8000;
+}
+#el3:focus {
+    width: 400px;    
+    box-shadow: 0 0 3px #969696;
+}

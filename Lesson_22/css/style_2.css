@@ -1,0 +1,13 @@
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+p {
+    text-align: justify
+}
+
+p::first-line {
+    color: red;
+    font-style: italic;
+}
