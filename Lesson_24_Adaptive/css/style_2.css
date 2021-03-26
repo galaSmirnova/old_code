@@ -1,0 +1,31 @@
+.wrapper {
+    box-sizing: border-box;
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.block {
+    
+    background: green;
+    height: 300px;
+     
+}
+.clearfix {
+    clear: both;
+}
+@media screen and (min-width: 800px) {
+    .block {
+        
+        float: left;
+        width: 49%;
+        /* margin-right: 2%; */
+    }
+    .block:not(:last-child) {
+        margin-right: 2%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .block {
+        margin-bottom: 20px;
+    }
+}
