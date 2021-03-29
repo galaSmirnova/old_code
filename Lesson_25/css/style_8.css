@@ -1,0 +1,9 @@
+input {
+    width: 30%;
+    height: 30px;
+    transition: width 1s ease;
+}
+
+input:focus {
+    width: 50%;
+}

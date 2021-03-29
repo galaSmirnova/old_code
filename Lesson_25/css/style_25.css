@@ -1,0 +1,10 @@
+a:link, a:visited {
+    color: blue;
+}
+div {
+    margin-bottom: 1150px;
+}
+
+p:target {
+    color: green;
+}

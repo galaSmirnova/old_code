@@ -1,0 +1,13 @@
+.box {
+    width: 30%;
+    height: 100px;
+    border: 1px solid red;
+    background: white;
+    transition-property: background;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.box:hover {
+    background: red;
+}

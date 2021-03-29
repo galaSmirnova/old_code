@@ -1,0 +1,15 @@
+div {
+    width: 30%;
+    height: 50px;
+    border: 1px solid red;
+    margin-bottom: 20px;
+}
+.d1 {
+    transition: width 3s steps(5, start);
+}
+.d2 {
+    transition: width 3s steps(5, end);
+}
+div:hover, div:hover + div{
+    width: 100%;
+}

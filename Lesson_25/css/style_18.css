@@ -1,0 +1,13 @@
+.d1 {
+    width: 150px;
+    height: 50px;
+    border: 1px solid red;
+    margin: 200px auto;
+    box-shadow: 100px -100px black,
+                -100px 100px black;
+    transition: box-shadow 2s linear;
+}
+.d1:hover {
+    box-shadow: 100px 100px black,
+                100px 100px black;
+}

@@ -1,0 +1,9 @@
+
+input:enabled {
+    box-shadow: 0 0 3px green;
+    border: 1px solid green;
+}
+input:disabled {
+    box-shadow: 0 0 3px red;
+    border: 1px solid red;
+}

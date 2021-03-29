@@ -1,0 +1,11 @@
+.box {
+    width: 30%;
+    height: 50px;
+    border:  1px solid red;
+    background: white;
+    transition: width 1s ease;
+    
+}
+.box:hover {    
+    width: 100%;
+}

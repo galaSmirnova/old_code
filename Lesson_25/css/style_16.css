@@ -1,0 +1,14 @@
+.wrapper {
+    width: 50%;    
+    margin: 0 auto;
+    border: 1px solid red;
+}
+.download {
+    background: red;
+    width: 0%;
+    height: 30px;
+    transition: width 2s linear;
+}
+.wrapper:hover div {
+    width: 100%;
+}

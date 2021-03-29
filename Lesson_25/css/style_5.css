@@ -1,0 +1,15 @@
+.box {
+    width: 30%;
+    height: 50px;
+    border:  1px solid red;
+    background: white;
+    color: red;
+    font-size: 15px;
+    transition: width 1.5s ease,
+                margin-left 1.5s ease;
+    
+}
+.box:hover {    
+    width: 70%;
+    margin-left: 150px;
+}

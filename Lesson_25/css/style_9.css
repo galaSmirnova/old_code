@@ -1,0 +1,19 @@
+.menu {
+    border: 1px solid green;
+    list-style: none;
+    padding: 40px 5%;
+}
+li {
+    border: 1px solid red;
+    height: 30px;
+    width: 30%;
+    margin-bottom: 40px; 
+    transition: width 1s ease;  
+}
+li:last-child {
+    margin-bottom: 0;
+}
+
+.menu:hover > li {
+    width: 100%;
+}

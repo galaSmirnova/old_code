@@ -1,0 +1,15 @@
+.wrapper {
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid red;
+    height: 30px;    
+}
+.d1 {
+   height: 30px;
+   width: 0%;
+   background-color: red;
+   transition: width 3s steps(5, start);
+}
+.wrapper:hover div {
+    width: 100%;
+}
