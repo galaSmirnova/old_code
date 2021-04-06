@@ -1,0 +1,25 @@
+ul {
+    font-size: 14px;
+    list-style-type: none;
+    transform: rotate(-7deg);
+    transform-origin: top right;
+    margin-top: 50px;
+}
+
+li {
+    display: inline-block;
+    border: 1px solid blue;
+    padding: 0px 10px;
+    transition: transform 1s;
+}
+
+li:hover {
+    transform: rotate(370deg);
+}
+
+li a:link,
+li a:visited {
+    display: block;
+    line-height: 35px;
+    text-decoration: none;
+}

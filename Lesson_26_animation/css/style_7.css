@@ -1,0 +1,15 @@
+.box {
+    width: 40px;
+    height: 40px;
+    border: 1px solid red;
+    animation: anim 3s ease 5 alternate;
+}
+
+@keyframes anim {
+    0% {
+        margin-left: 0;
+    }
+    100% {
+        margin-left: 500px;
+    }
+}

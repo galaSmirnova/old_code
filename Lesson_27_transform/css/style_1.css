@@ -1,0 +1,21 @@
+div {
+    width: 90px;
+    height: 90px;
+    border: 1px solid red;
+    margin: 45px auto;
+}
+.b1:hover {
+    transform: rotate(45deg);
+}
+.b2:hover {
+    transform: scale(2);
+}
+.b3:hover {
+    transform: skew(45deg);
+}
+.b4:hover {
+    transform: translateX(20px);
+}
+.b5:hover {
+    transform: translate(-10px, -10px);
+}

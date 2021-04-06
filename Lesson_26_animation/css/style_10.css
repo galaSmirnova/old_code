@@ -1,0 +1,22 @@
+.box {
+    width: 10%;
+    height: 35px;    
+    border: 1px solid red;
+    animation: anim 4s ease infinite alternate;
+    animation-play-state: paused;    
+}
+
+.box:hover{
+    animation-play-state: running;
+}
+@keyframes anim {
+    0% {
+        width: 10%;
+    }
+    50% {
+        width: 100%;
+    }
+    100% {
+        width: 10%;
+    }
+}

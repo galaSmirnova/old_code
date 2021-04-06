@@ -1,0 +1,36 @@
+.box {
+    width: 30%;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    padding-left: 10px;
+    border: 1px solid red;
+    animation-play-state: paused;
+    margin-bottom: 20px;
+}
+
+.box-blue {
+    width: 10%;
+    border: 1px solid blue;
+    height: 40px;
+    animation: anim 4s ease infinite alternate;
+    animation-play-state: paused;
+}
+
+.box:hover+.box-blue {
+    animation-play-state: running;
+}
+
+@keyframes anim {
+    0% {
+        width: 10%;
+    }
+
+    50% {
+        width: 100%;
+    }
+
+    100% {
+        width: 10%;
+    }
+}

@@ -1,0 +1,10 @@
+.box {
+    width: 90px;
+    height: 90px;
+    border:  1px solid red;
+    margin: 90px auto;
+}
+.box{
+    border-radius: 50px;
+    transform: rotate(45deg) scale(2, 3);
+}

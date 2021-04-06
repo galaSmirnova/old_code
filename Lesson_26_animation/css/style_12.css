@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+.box {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+.circle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: red;
+    animation: anim 5s infinite;
+}
+@keyframes anim {
+    0% {
+        bottom: 200px;
+        left: 0;
+        animation-timing-function: ease-in;
+    } 
+    40% {
+        bottom: 0;        
+        animation-timing-function: ease-out;
+    }
+    55% {
+        bottom: 50px;
+        animation-timing-function: ease-in;
+    }
+   
+    70% { 
+        bottom: 0;
+        animation-timing-function: ease-out;
+    }
+    80% {
+        bottom: 30px;
+        animation-timing-function: ease-in;
+    }
+    90% {
+        bottom: 0; 
+        animation-timing-function: ease-out;
+    }
+    95% {
+        bottom: 10px;
+        animation-timing-function: ease-in;
+    }
+    100% {
+        bottom: 0;
+        left: 100px;
+        animation-timing-function: ease-out;
+    }
+}
+

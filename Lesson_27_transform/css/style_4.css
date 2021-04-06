@@ -1,0 +1,9 @@
+.box {
+    width: 300px;
+    margin: 30px auto;
+}
+.box {
+    transform: skew(5deg);
+    text-align: justify;
+    font-size: 15px;
+}

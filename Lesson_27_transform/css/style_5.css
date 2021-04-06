@@ -1,0 +1,12 @@
+.wrapper {
+    text-align: center;
+}
+img {
+    width: 200px;
+    transition: 1s;
+    box-shadow: 0 0 3px black;
+}
+img:hover {
+    transform: scale(2);
+    
+}

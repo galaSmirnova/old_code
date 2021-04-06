@@ -1,0 +1,19 @@
+.wrapper {
+    width: 50%;
+    height: 30px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+.box {   
+    background: red;
+    height: 30px;
+    animation: anim 10s linear 2;
+}
+@keyframes anim {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
